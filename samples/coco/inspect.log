@@ -1,0 +1,100 @@
+Dataset loading...
+loading annotations into memory...
+Done (t=1.22s)
+creating index...
+index created!
+train image_dir: /data1/gaoxi/yh/KaggleShip/DataSet_Kaggle/train_v2
+Image Count: 42256
+Class Count: 2
+  0. BG                                                
+  1. ship                                              
+Display samples.
+image_id 26897
+image_id 1607
+image_id 3106
+image_id 8039
+Display bounding boxes.
+image_id  1673
+image                    shape: (768, 768, 3)         min:    0.00000  max:  248.00000  uint8
+mask                     shape: (768, 768, 1)         min:    0.00000  max:    1.00000  bool
+class_ids                shape: (1,)                  min:    1.00000  max:    1.00000  int32
+bbox                     shape: (1, 4)                min:  296.00000  max:  555.00000  int32
+[[522 296 555 327]]
+Display resized images.
+image_id:  21269 http://cocodataset.org/#explore?id=21270
+Original shape:  (768, 768, 3)
+image                    shape: (768, 768, 3)         min:    0.00000  max:  204.00000  uint8
+mask                     shape: (768, 768, 1)         min:    0.00000  max:    1.00000  bool
+class_ids                shape: (1,)                  min:    1.00000  max:    1.00000  int32
+bbox                     shape: (1, 4)                min:    4.00000  max:  424.00000  int32
+[[  4 364  84 424]]
+Display mini masks.
+image                    shape: (768, 768, 3)         min:    0.00000  max:  214.00000  uint8
+image_meta               shape: (14,)                 min:    0.00000  max: 18500.00000  int64
+class_ids                shape: (1,)                  min:    1.00000  max:    1.00000  int32
+bbox                     shape: (1, 4)                min:  606.00000  max:  639.00000  int32
+[[606 627 624 639]]
+mask                     shape: (768, 768, 1)         min:    0.00000  max:    1.00000  bool
+mask                     shape: (56, 56, 1)           min:    0.00000  max:    1.00000  bool
+bbox [[ 63 499  72 517]]
+Display anchors.
+Count:  147312
+Scales:  (6, 18, 36, 72, 144)
+ratios:  [0.5, 1, 2]
+Anchors per Cell:  3
+Levels:  5
+Anchors in Level 0: 110592
+Anchors in Level 1: 27648
+Anchors in Level 2: 6912
+Anchors in Level 3: 1728
+Anchors in Level 4: 432
+Level 0. Anchors: 110592  Feature map Shape: [192 192]
+Level 1. Anchors:  27648  Feature map Shape: [96 96]
+Level 2. Anchors:   6912  Feature map Shape: [48 48]
+Level 3. Anchors:   1728  Feature map Shape: [24 24]
+Level 4. Anchors:    432  Feature map Shape: [12 12]
+Display data generator.
+Positive ids is less than 20 and #Pos_ids: 1
+rois                     shape: (1, 45, 4)            min:  272.00000  max:  753.00000  int32
+mrcnn_class_ids          shape: (1, 45, 1)            min:    0.00000  max:    1.00000  int32
+mrcnn_bbox               shape: (1, 45, 2, 4)         min:   -3.12500  max:    2.18750  float32
+mrcnn_mask               shape: (1, 45, 28, 28, 2)    min:    0.00000  max:    1.00000  float32
+gt_class_ids             shape: (1, 15)               min:    0.00000  max:    1.00000  int32
+gt_boxes                 shape: (1, 15, 4)            min:    0.00000  max:  584.00000  int32
+gt_masks                 shape: (1, 56, 56, 15)       min:    0.00000  max:    1.00000  bool
+rpn_match                shape: (1, 147312, 1)        min:   -1.00000  max:    1.00000  int32
+rpn_bbox                 shape: (1, 45, 4)            min:   -2.46238  max:    1.38889  float64
+image_id:  5890
+anchors                  shape: (147312, 4)           min:    0.00000  max:  768.00000  float64
+refined_anchors          shape: (1, 4)                min:  513.00000  max:  584.00000  float32
+Positive anchors: 1
+Negative anchors: 44
+Neutral anchors: 147267
+BG                     : 31
+ship                   : 14
+Display ROIs.
+Positive ROIs:  14
+Negative ROIs:  31
+Positive Ratio: 0.31
+Unique ROIs: 45 out of 45
+Positive ids is less than 20 and #Pos_ids: 2
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 1
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 3
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 1
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 1
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 2
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 1
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 1
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 1
+   14  0.31
+Positive ids is less than 20 and #Pos_ids: 3
+   14  0.31
+Average percent: 0.31
