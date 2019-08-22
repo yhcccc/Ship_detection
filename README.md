@@ -2,7 +2,7 @@
 
 #### Reference :  
 (matterport/Mask_RCNN)[https://github.com/matterport/Mask_RCNN]  
-(Fine-tuning ResNet34 on ship detection)https://www.kaggle.com/iafoss/fine-tuning-resnet34-on-ship-detection-new-data  
+(Fine-tuning ResNet34 on ship detection)[https://www.kaggle.com/iafoss/fine-tuning-resnet34-on-ship-detection-new-data  
   
 #### Requirements:   
 Python 3.6, TensorFlow 1.3, Keras 2.0.8 and several common packages.   
