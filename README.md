@@ -10,10 +10,8 @@ Python 3.6, TensorFlow 1.3, Keras 2.0.8 and several common packages.
 #### Main concern:   
 Rotation invariance                         -- Data Augmentation;  
 Samples with ~1:10000 unbalance(pos:neg)    -- Combine with ResNet34 classification results;  
-<<<<<<< HEAD
-Not duplicated in the decoded pixel values  -- ```(mask^bg)&mask```(in ship_detection.ipynb);
-=======
-Not duplicate in the decoded pixel values  -- ```(mask^bg)&mask```(in ship_detection.ipynb);
->>>>>>> d367d1157efc7b05b6570c587a23ff19ba91c9b5
+No duplicate in the decoded pixel values  -- ```(mask^bg)&mask```(in ship_detection.ipynb);
 
 Run ship_detection.ipynb.
+
+![Image text](https://github.com/yhcccc/Ship_detection/blob/master/figure_display/val_detect_7_dispaly.jpg)
