@@ -12,6 +12,5 @@ Rotation invariance                         -- Data Augmentation;
 Samples with ~1:10000 unbalance(pos:neg)    -- Combine with ResNet34 classification results;  
 No duplicate in the decoded pixel values  -- ```(mask^bg)&mask```(in ship_detection.ipynb);
 
-Run ship_detection.ipynb.
-
+Run ship_detection.ipynb.  
 ![Image text](https://github.com/yhcccc/Ship_detection/blob/master/figure_display/val_detect_7_dispaly.jpg)
